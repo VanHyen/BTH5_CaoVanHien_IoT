@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+#connectBtn {
+  background: #4caf50;
+  color: white;
+}
+
+#connectBtn:hover {
+  background: #45a049;
+}
+
+#disconnectBtn {
+  background: #f44336;
+  color: white;
+}
+
+#disconnectBtn:hover {
+  background: #da190b;
+}
+
+#status {
+  padding: 10px;
+  margin: 20px auto;
+  max-width: 400px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#status.waiting {
+  background: #ffeb3b;
+  color: #333;
+}
+
+#status.connected {
+  background: #4caf50;
+  color: white;
+}
+
+#status.disconnected {
+  background: #f44336;
+  color: white;
+}
+
+.data {
+  max-width: 400px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.data p {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+#temperature {
+  font-weight: bold;
+  color: #ff5722;
+  font-size: 32px;
+}
+
+#humidity {
+  font-weight: bold;
+  color: #2196f3;
+  font-size: 32px;
+}
